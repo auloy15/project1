@@ -91,6 +91,13 @@ class BookListPage extends StatelessWidget {
                   imageUrl: 'assets/images/book3.png',
                   description: 'Discover 60+ Flutter libraries'),
             ),
+            BookCard(
+              book: Book(
+                  name: 'Begining Flutter',
+                  author: 'Sanjib Singh',
+                  imageUrl: 'assets/images/book4.png',
+                  description: 'Learn to use flutter'),
+            ),
           ],
         ),
       ),
@@ -110,7 +117,7 @@ class BookCard extends StatelessWidget {
       child: Card(
         shape: BeveledRectangleBorder(
           borderRadius: BorderRadius.circular(5),
-          side: BorderSide(color: Colors.blue.shade800, width: 2.5),
+          side: BorderSide(color: Colors.blue.shade400, width: 2.5),
         ),
         color: Colors.white,
         clipBehavior: Clip.antiAlias,
