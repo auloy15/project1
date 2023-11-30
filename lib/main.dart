@@ -271,6 +271,7 @@ class _BuyNowPageState extends State<BuyNowPage> {
                   'Bkash',
                   'Nagad',
                   'Cash on Delivery',
+                  'Crdeit or Debit Card',
                   // Add more options as needed
                 ].map<DropdownMenuItem<String>>((String value) {
                   return DropdownMenuItem<String>(
